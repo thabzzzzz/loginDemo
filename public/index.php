@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Auth System</title>
+    <title>Login Test</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+
+    <link rel="stylesheet" href="assets/style.css">
+
     <script>
         async function handleAuth(endpoint, formId) {
             let form = document.getElementById(formId);
@@ -120,7 +129,7 @@
 </head>
 
 <body>
-    <h1>Simple Authentication System</h1>
+    <h1>Login Test</h1>
 
     <div id="auth-forms">
         <h2>Register</h2>
